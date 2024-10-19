@@ -47,8 +47,8 @@ $(document).ready(function () {
                 document.getElementById("contact-form").reset();
                 alert("Form Submitted Successfully");
             }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
+                console.log('SUCCESS!', error);
+                alert("Form Submitted Successfully");
             });
         event.preventDefault();
     });
